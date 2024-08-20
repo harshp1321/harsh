@@ -15,7 +15,7 @@ return fibo(n-1)+fibo(n-2);
 int main()
 {
 int n;
-cout<<"Enter number of terms : ";
+cout<<"Enter the number of series : ";
 cin>>n;
 cout<<"Fibonacci series is : ";
 cout<<fibo(n);
