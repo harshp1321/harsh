@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int fibo(int n)
+{
+if(n<=1)
+{
+return n;
+}
+else
+{
+return fibo(n-1)+fibo(n-2);
+}
+}
+
+int main()
+{
+int n;
+cout<<"Enter number of terms : ";
+cin>>n;
+cout<<"Fibonacci series is : ";
+cout<<fibo(n);
+return 0;
+}
